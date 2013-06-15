@@ -1,0 +1,11 @@
+{
+  "name": "snap-states",
+  "version": "0.0.1",
+  "author": "Olu Ayandosu",
+  "main": "states.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}

@@ -1,0 +1,41 @@
+/*
+ * Snap States
+ *
+ * A collection of styles that augment and override all other styles for a module/component in particular states e.g. collapsed, hidden or expanded.
+ */
+
+/*
+ * Hides from element from DOM flow and screen readers
+ */
+.is-hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/*
+ * Hides element without affecting DOM flow
+ */
+.is-invisible {
+  visibility: hidden;
+}
+
+/*
+ * Changes cursor to pointer to indicate element will trigger and an action
+ */
+.is-actionable {
+  cursor: pointer;
+}
+
+/*
+ * Changes cursor to move to indicate element can be dragged
+ */
+.is-draggable {
+  cursor: move;
+}
+
+/*
+ * Changes cursor to default to indicate element has no action
+ */
+.is-disabled {
+  cursor: default;
+}
